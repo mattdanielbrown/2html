@@ -1,0 +1,36 @@
+{
+	"name": "2html",
+	"version": "0.0.0",
+	"description": "CLI for converting HTML to PDF, and markup preprocessor files to/from HTML.",
+	"license": "MIT",
+	"repository": "mattdanielbrown/2html",
+	"author": {
+		"name": "Matt Daniel Brown",
+		"email": "developer@mattdanielbrown.com",
+		"url": "https://mattbrown.codes"
+	},
+	"type": "module",
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.38.0"
+	}
+}
